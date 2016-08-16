@@ -1,0 +1,46 @@
+# Built with Jekyll 3.2.0
+
+# Setup
+title:               Getty Intern Guide
+tagline:             'Hello there and welcome!'
+description:         'No matter how long your internship may last, you’re in for a ride of insight and knowledge in the world of publications.
+                      Created by a previous Multicultural Undergraduate Intern, this website was envisioned to act as a helpful resource for future interns. It provides guides on how to navigate the expansive the Getty campus to how to use communication tools like Slack and Microsoft Outlook. It’s like Getty Go, but streamlined to fit the needs of interns. Looking for something not addressed in here? Ask your supervisor.'
+url:                 'http://elotroalex.github.io'
+baseurl:             '/ed'
+
+# About/contact
+author:
+  name:              Alex Gil
+  url:               https://twitter.com/elotroalex
+  email:             colibri.alex@gmail.com
+
+# Permalinks
+
+permalink: pretty
+permalink: /:title/
+
+# Set encoding to UTF-8
+encoding: utf-8
+
+# Collections for texts
+collections:
+  texts:
+    output: true
+
+# Markdown specs
+# markdown: kramdown
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Custom vars
+version:             0.0.6
+
+# Exclusions from the final site
+exclude: [optional, vendor]
