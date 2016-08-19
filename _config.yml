@@ -6,7 +6,7 @@ tagline:             'Hello there and welcome!'
 description:         'No matter how long your internship may last, you’re in for a ride of insight and knowledge in the world of publications.
                       Created by a previous Multicultural Undergraduate Intern, this website was envisioned to act as a helpful resource for future interns. It provides guides on how to navigate the expansive the Getty campus to how to use communication tools like Slack and Microsoft Outlook. It’s like Getty Go, but streamlined to fit the needs of interns. Looking for something not addressed in here? Ask your supervisor.'
 url:                 'http://elotroalex.github.io'
-baseurl:             '/ed'
+baseurl:             ''
 
 # About/contact
 author:
